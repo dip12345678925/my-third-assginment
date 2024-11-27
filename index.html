@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY-Third-Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- tailwindcss -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .font-manrope{
+  font-family: "Manrope", sans-serif;
+  }
+  </style>
+</head>
+
+<body class="manrope mx-auto">
+    <header class="md:container mx-auto">
+       <!-- nav setion -->
+       <div class="navbar bg-base-100 mx-auto">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a></a>Home</li>
+              <li><a></a>Service</li>
+              <li><a></a>Portifolio</li>
+              <li><a></a>Blogs</li>
+              <li><a></a>Contact Us</li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl"> Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal gap-5 px-1">
+            <li class="font-bold"><a></a>Home</li>
+            <li class="text-gray-500"><a></a>Sarvice</li>
+            <li class="text-gray-500"><a></a>Portifolio</li>
+            <li class="text-gray-500"><a></a>Blogs</li>
+            <li class="text-gray-500"><a></a>Contact Us</li>
+          </ul>
+        </div>
+        <div class="navbar-end hidden md:flex">
+          <button class="btn btn-ghost btn-circle  ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+          <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+              </svg>
+              <span class="badge badge-xs badge-primary indicator-item"></span>
+            </div>
+          </button>
+        </div>
+        <div class="navbar-end hidden md:flex">
+          <button class="bg-green-400 px-5 py-3 rounded-lg text-white font-bold text-xl">Book Consult</button>
+        </div>
+      </div>
+      <!-- hero -->
+      <div class="hero  ">
+        <div class="hero-content text-center">
+          <div class="max-w-3xl">
+           <div class="px-16">
+            <img src="assets/banner.png" alt="">
+           </div>
+            <div class="px-5">
+              <h1 class=" text-2xl lg:text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+            <p class="py-6 text-gray-500">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <button class="bg-green-400  rounded-full px-6 text-white btn">View detais <i class="fa-solid fa-arrow-right bg-zinc-900"></i> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main  -->
+    <main class="mx-auto justify-center ">
+    <section class="mt-5 mx-auto bg-blue-50 mb-20 ">
+      <div class="hidden md:flex px-10 mt-10">
+        <img src="assets/Vector.png" alt="">
+      </div>
+      <!-- hero  -->
+      <div class="lg:flex mx-auto justify-center">
+        <div>
+          <button class="bg-white border rounded-xl px-5 py-2 mb-5">About Us</button>
+          <h1 class=" text-2xl font-bold ">We design thoughtful, <br> liveable spaces</h1>
+          <br>
+          <p class=" lg:w-[559px] lg:h-[52px] text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <!-- card -->
+           <div class=" flex-row">
+          <div class="flex mt-8 border lg:w-96 w-96 rounded-xl bg-white  lg:px-3 lg:py-2 justify-center">
+            <div>
+              <img src="assets/commercial.png" alt="">
+            </div>
+            <div class="px-5">
+              <h2 class="text-xl font-bold">Commercial</h2>
+              <p class="w-64 text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+          <div class="flex mt-8 border w-96 rounded-xl bg-white  px-3 py-2 justify-center">
+            <div>
+              <img src="assets/residential.png" alt="">
+            </div>
+            <div class="px-5">
+               <h2 class="text-xl font-bold">residential</h2>
+               <p class="w-64 text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <img class="lg:w-[450px] lg:h-full w-[250px] " src="assets/Rectangle.png" alt="">
+        </div>
+        </div> 
+      </div>
+     
+    </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
